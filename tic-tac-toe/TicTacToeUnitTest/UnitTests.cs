@@ -32,7 +32,7 @@ namespace TicTacToeUnitTest
         [Fact]
         public void CreateNewBoard()
         {
-            Board emptyBoard = new Board();
+            GameState emptyGame = new GameState();
 
             char[,] emptyState =
             {
@@ -41,31 +41,62 @@ namespace TicTacToeUnitTest
                 {'\0', '\0', '\0'}
             };
 
-            Assert.True(compare2DArrays(emptyBoard.BoardState, emptyState));
-        }
-
-        [Fact]  
-        public void InvalidCharMove()
-        {
-            Board board = new Board();
-
-            Assert.Throws<ArgumentException>(
-                () => board.MakeMove('z', 0, 0)
-            );
-
-            board.MakeMove('o', 1, 1);
-            board.MakeMove('x', 2, 2);
+            Assert.True(compare2DArrays(emptyGame.CurrentBoard.BoardState, emptyState));
         }
 
         [Fact]
         public void MoveIntoNonEmptyCell()
         {
-            Board board = new Board();
-            board.MakeMove('x', 0, 0);
+            GameState game = new GameState();
+
+            game.MakeMove(0, 0);
 
             Assert.Throws<ArgumentException>(
-                () => board.MakeMove('o', 0, 0)
+                () => game.MakeMove(0, 0)
             );
+        }
+
+        [Fact]
+        public void CheckWinCol()
+        {
+            GameState game = new GameState();
+
+            game.MakeMove(0, 0);
+            game.MakeMove(0, 1);
+            game.MakeMove(1, 0);
+            game.MakeMove(2, 2);
+            game.MakeMove(2, 0);
+
+            Assert.True(game.CheckWin() == 'x');
+        }
+
+        [Fact]
+        public void CheckWinRow()
+        {
+            GameState game = new GameState();
+
+            game.MakeMove(0, 0);
+            game.MakeMove(1, 0);
+            game.MakeMove(2, 2);
+            game.MakeMove(1, 1);
+            game.MakeMove(2, 0);
+            game.MakeMove(1, 2);
+
+            Assert.True(game.CheckWin() == 'o');
+        }
+
+        [Fact]
+        public void CheckWinDiagonol()
+        {
+            GameState game = new GameState();
+
+            game.MakeMove(0, 0);
+            game.MakeMove(1, 0);
+            game.MakeMove(2, 2);
+            game.MakeMove(0, 1);
+            game.MakeMove(1, 1);
+
+            Assert.True(game.CheckWin() == 'x');
         }
     }
 }
