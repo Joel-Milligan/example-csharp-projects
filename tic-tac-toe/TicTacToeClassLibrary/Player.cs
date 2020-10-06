@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace TicTacToeClassLibrary
 {
-    public class Class1
+    class Player
     {
     }
 }
