@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "TicTacToeClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/TicTacToeClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TicTacToeClassLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "TicTacToeClassLibrary/1.0.0": {
+      "type": "project",
+      "path": "../TicTacToeClassLibrary/TicTacToeClassLibrary.csproj",
+      "msbuildProject": "../TicTacToeClassLibrary/TicTacToeClassLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "TicTacToeClassLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Joel Milligan\\.nuget\\packages\\": {}
@@ -32,7 +51,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Joel Milligan\\Desktop\\Programming\\dotnet\\example-csharp-projects\\tic-tac-toe\\TicTacToeClassLibrary\\TicTacToeClassLibrary.csproj": {
+              "projectPath": "C:\\Users\\Joel Milligan\\Desktop\\Programming\\dotnet\\example-csharp-projects\\tic-tac-toe\\TicTacToeClassLibrary\\TicTacToeClassLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
