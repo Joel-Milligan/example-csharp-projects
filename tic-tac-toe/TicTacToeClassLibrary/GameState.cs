@@ -44,9 +44,9 @@ namespace TicTacToeClassLibrary
         public void PrintGame()
         {
             Console.WriteLine($"{this.CurrentBoard.BoardState[0, 0]}|{this.CurrentBoard.BoardState[0, 1]}|{this.CurrentBoard.BoardState[0, 2]}");
-            Console.WriteLine($"-----");
+            Console.WriteLine($"-+-+-");
             Console.WriteLine($"{this.CurrentBoard.BoardState[1, 0]}|{this.CurrentBoard.BoardState[1, 1]}|{this.CurrentBoard.BoardState[1, 2]}");
-            Console.WriteLine($"-----");
+            Console.WriteLine($"-+-+-");
             Console.WriteLine($"{this.CurrentBoard.BoardState[2, 0]}|{this.CurrentBoard.BoardState[2, 1]}|{this.CurrentBoard.BoardState[2, 2]}");
         }
 
