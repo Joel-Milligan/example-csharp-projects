@@ -91,12 +91,16 @@ namespace TicTacToeUnitTest
             GameState game = new GameState();
 
             game.MakeMove(0, 0);
+            Assert.False(game.CheckWin() == 'x');
+
             game.MakeMove(1, 0);
             game.MakeMove(2, 2);
+            Assert.False(game.CheckWin() == 'x');
+            
             game.MakeMove(0, 1);
             game.MakeMove(1, 1);
-
             Assert.True(game.CheckWin() == 'x');
+            
         }
     }
 }
