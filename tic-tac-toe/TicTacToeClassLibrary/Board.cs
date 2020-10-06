@@ -7,9 +7,7 @@ namespace TicTacToeClassLibrary
     public class Board
     {
         public char[,] BoardState { get; set; }
-        public char CurrentPlayer { get; set; }
-
-        // Create an empty board
+        
         public Board()
         {
             BoardState = new char[3, 3];
