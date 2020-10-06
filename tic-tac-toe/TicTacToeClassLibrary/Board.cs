@@ -7,10 +7,15 @@ namespace TicTacToeClassLibrary
     public class Board
     {
         public char[,] BoardState { get; set; }
-        
+        public int Rows { get; set; }
+        public int Cols { get; set; }
+
         public Board()
         {
-            BoardState = new char[3, 3];
+            this.Rows = 3;
+            this.Cols = 3;
+
+            BoardState = new char[this.Rows, this.Cols];
             this.EmptyBoard();
         }
 
