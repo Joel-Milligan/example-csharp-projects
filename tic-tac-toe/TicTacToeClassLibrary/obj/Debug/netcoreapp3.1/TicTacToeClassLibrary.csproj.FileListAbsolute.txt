@@ -1,0 +1,9 @@
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\tic-tac-toe\TicTacToeClassLibrary\bin\Debug\netcoreapp3.1\TicTacToeClassLibrary.deps.json
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\tic-tac-toe\TicTacToeClassLibrary\bin\Debug\netcoreapp3.1\TicTacToeClassLibrary.dll
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\tic-tac-toe\TicTacToeClassLibrary\bin\Debug\netcoreapp3.1\TicTacToeClassLibrary.pdb
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\tic-tac-toe\TicTacToeClassLibrary\obj\Debug\netcoreapp3.1\TicTacToeClassLibrary.csprojAssemblyReference.cache
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\tic-tac-toe\TicTacToeClassLibrary\obj\Debug\netcoreapp3.1\TicTacToeClassLibrary.AssemblyInfoInputs.cache
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\tic-tac-toe\TicTacToeClassLibrary\obj\Debug\netcoreapp3.1\TicTacToeClassLibrary.AssemblyInfo.cs
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\tic-tac-toe\TicTacToeClassLibrary\obj\Debug\netcoreapp3.1\TicTacToeClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\tic-tac-toe\TicTacToeClassLibrary\obj\Debug\netcoreapp3.1\TicTacToeClassLibrary.dll
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\tic-tac-toe\TicTacToeClassLibrary\obj\Debug\netcoreapp3.1\TicTacToeClassLibrary.pdb
