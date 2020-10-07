@@ -3,8 +3,15 @@
 ## Demonstrates
 
 - Ability to use Git, GitHub, and Markdown
+    - Creating atomic commits
+    - Branching for new features (ie each project in this repo)
+    - Submitting and accepting pull requests
+    - Submitting and closing issues with PRs
 - All solutions developed with Visual Studio 2019
-- All other files (such as this README.md) are developed with Visual Studio Code
+- All other files (such as this README.md) are written using Visual Studio Code
+- Documentation
+    - External documentation with this README
+    - Internal documentation with commenting within the project
 
 ## Projects
 
