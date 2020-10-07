@@ -32,3 +32,16 @@ A basic console app for the game "Tic Tac Toe"
 Input moves of the form "row col", where row and col are numbers between 0 and 2, where top left = 0 0 and bottom right = 2 2.
 
 Moves alternate between 'x' and 'o', and 'x' begins.
+
+### WeatherStats
+
+An app that retrieves the last 72 hours of weather information for Perth from "www.bom.gov.au", and outputs statistics about the last 72 hours to a text file.
+
+#### Demonstrates
+
+- Using NuGet to install and use 3rd party libraries (Newtonsoft.Json)
+- Make HTTP Get Requests from 3rd Party Websites
+- Parse JSON Data
+- File Creation and Writing
+
+#### Instructions
