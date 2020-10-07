@@ -1,0 +1,16 @@
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\tic-tac-toe\TicTacToe\bin\Release\netcoreapp3.1\TicTacToe.exe
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\tic-tac-toe\TicTacToe\bin\Release\netcoreapp3.1\TicTacToe.deps.json
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\tic-tac-toe\TicTacToe\bin\Release\netcoreapp3.1\TicTacToe.runtimeconfig.json
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\tic-tac-toe\TicTacToe\bin\Release\netcoreapp3.1\TicTacToe.runtimeconfig.dev.json
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\tic-tac-toe\TicTacToe\bin\Release\netcoreapp3.1\TicTacToe.dll
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\tic-tac-toe\TicTacToe\bin\Release\netcoreapp3.1\TicTacToe.pdb
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\tic-tac-toe\TicTacToe\bin\Release\netcoreapp3.1\TicTacToeClassLibrary.dll
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\tic-tac-toe\TicTacToe\bin\Release\netcoreapp3.1\TicTacToeClassLibrary.pdb
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\tic-tac-toe\TicTacToe\obj\Release\netcoreapp3.1\TicTacToe.csprojAssemblyReference.cache
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\tic-tac-toe\TicTacToe\obj\Release\netcoreapp3.1\TicTacToe.AssemblyInfoInputs.cache
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\tic-tac-toe\TicTacToe\obj\Release\netcoreapp3.1\TicTacToe.AssemblyInfo.cs
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\tic-tac-toe\TicTacToe\obj\Release\netcoreapp3.1\TicTacToe.csproj.CoreCompileInputs.cache
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\tic-tac-toe\TicTacToe\obj\Release\netcoreapp3.1\TicTacToe.csproj.CopyComplete
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\tic-tac-toe\TicTacToe\obj\Release\netcoreapp3.1\TicTacToe.dll
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\tic-tac-toe\TicTacToe\obj\Release\netcoreapp3.1\TicTacToe.pdb
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\tic-tac-toe\TicTacToe\obj\Release\netcoreapp3.1\TicTacToe.genruntimeconfig.cache

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "jPZn/LCcfd1CX0iEFyjt1SLrN2+ykWBjyLr4bjoEHnwsFQSJ7608SxabaP42cNokTfN37cy+kRs9UvnujlAH2Q==",
+  "dgSpecHash": "NfuJa6lGWUV8sSLaoIO8ZxDb9oBCWHhoOCr011w/kMKV2Z6psfw8Z61OAgeiXVidxdiPj41m+M/QZePqoNX0jw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Joel Milligan\\Desktop\\Programming\\dotnet\\example-csharp-projects\\tic-tac-toe\\TicTacToeClassLibrary\\TicTacToeClassLibrary.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Joel Milligan\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\3.1.8\\microsoft.netcore.app.runtime.win-x64.3.1.8.nupkg.sha512",
+    "C:\\Users\\Joel Milligan\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\3.1.8\\microsoft.windowsdesktop.app.runtime.win-x64.3.1.8.nupkg.sha512",
+    "C:\\Users\\Joel Milligan\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\3.1.8\\microsoft.aspnetcore.app.runtime.win-x64.3.1.8.nupkg.sha512"
+  ],
   "logs": []
 }
