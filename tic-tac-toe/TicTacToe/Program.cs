@@ -6,7 +6,7 @@ namespace TicTacToe
 {
     class Program
     {
-        static bool checkUserInput(string input, int rows, int cols)
+        static bool CheckUserInput(string input, int rows, int cols)
         {
             int row;
             int col;
@@ -39,18 +39,20 @@ namespace TicTacToe
             return true;
         }
         
-        static void Main(string[] args)
+        static void Main()
         {
             GameState game = new GameState();
 
             bool running = true;
             while (running)
             {
+                game.PrintGame();
+
                 Console.WriteLine("Enter a move in the form (row col): ");
                 string move = Console.ReadLine();
                 
 
-                if (!checkUserInput(move, game.CurrentBoard.Rows, game.CurrentBoard.Cols))
+                if (!CheckUserInput(move, game.CurrentBoard.Rows, game.CurrentBoard.Cols))
                 {
                     Console.WriteLine("Incorrect format, please try again.");
                     continue;
@@ -59,13 +61,13 @@ namespace TicTacToe
                 int row = Int16.Parse(move.Split(' ')[0]);
                 int col = Int16.Parse(move.Split(' ')[1]);
 
-                game.MakeMove(row, col);
-                Console.WriteLine("Made Move:");
-                game.PrintGame();
+                game.MakeMove(row, col);                
 
                 char winner = game.CheckWin();
                 if (winner != '\0')
                 {
+                    game.PrintGame();
+
                     Console.WriteLine($"{winner} Won The Game!");
                     running = false;
                 } 

@@ -69,6 +69,7 @@ namespace TicTacToeClassLibrary
                     if (CurrentBoard.BoardState[row, col] != player)
                     {
                         player = '\0';
+                        break;
                     }
                 }
 
@@ -93,6 +94,7 @@ namespace TicTacToeClassLibrary
                     if (CurrentBoard.BoardState[row, col] != player)
                     {
                         player = '\0';
+                        break;
                     }
                 }
 
@@ -114,13 +116,13 @@ namespace TicTacToeClassLibrary
                 if (CurrentBoard.BoardState[i, i] != player)
                 {
                     player = '\0';
-                }
-                
+                    break;
+                }                
+            }
 
-                if (player != '\0')
-                {
-                    return player;
-                }
+            if (player != '\0')
+            {
+                return player;
             }
 
             player = CurrentBoard.BoardState[0, 2];
@@ -134,17 +136,11 @@ namespace TicTacToeClassLibrary
                 if (CurrentBoard.BoardState[i, (CurrentBoard.BoardState.GetLength(0) - 1) - i] != player)
                 {
                     player = '\0';
-                }
-
-
-                if (player != '\0')
-                {
-                    return player;
+                    break;
                 }
             }
 
-            // No Winner
-            return '\0';
+            return player;
         }
     }
 }
