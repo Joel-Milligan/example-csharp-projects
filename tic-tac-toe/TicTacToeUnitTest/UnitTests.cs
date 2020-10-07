@@ -102,5 +102,30 @@ namespace TicTacToeUnitTest
             Assert.True(game.CheckWin() == 'x');
             
         }
+
+        [Fact]
+        public void CheckDraw()
+        {
+            GameState game = new GameState();
+
+            game.MakeMove(1, 1);
+            game.MakeMove(0, 0);
+            Assert.False(game.CheckDraw());
+
+            game.MakeMove(1, 2);
+            game.MakeMove(1, 0);
+            Assert.False(game.CheckDraw());
+
+            game.MakeMove(2, 0);
+            game.MakeMove(0, 2);
+            Assert.False(game.CheckDraw());
+
+            game.MakeMove(0, 1);
+            game.MakeMove(2, 1);
+            Assert.False(game.CheckDraw());
+
+            game.MakeMove(2, 2);
+            Assert.True(game.CheckDraw());
+        }
     }
 }

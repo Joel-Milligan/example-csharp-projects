@@ -142,5 +142,17 @@ namespace TicTacToeClassLibrary
 
             return player;
         }
+
+        public bool CheckDraw()
+        {
+            foreach (char cell in this.CurrentBoard.BoardState)
+            {
+                if(cell == '\0')
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
     }
 }

@@ -70,7 +70,15 @@ namespace TicTacToe
 
                     Console.WriteLine($"{winner} Won The Game!");
                     running = false;
-                } 
+                }
+
+                if(game.CheckDraw())
+                {
+                    game.PrintGame();
+
+                    Console.WriteLine($"The Game is Drawn!");
+                    running = false;
+                }
             }
         }
     }
