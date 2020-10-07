@@ -86,7 +86,7 @@ namespace TicTacToeUnitTest
         }
 
         [Fact]
-        public void CheckWinDiagonol()
+        public void CheckWinDiagonal()
         {
             GameState game = new GameState();
 
