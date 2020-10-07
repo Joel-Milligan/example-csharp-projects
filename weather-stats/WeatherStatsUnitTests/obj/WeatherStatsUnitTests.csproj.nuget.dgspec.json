@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Joel Milligan\\Desktop\\Programming\\dotnet\\example-csharp-projects\\weather-stats\\WeatherStatsUnitTests\\WeatherStatsUnitTests.csproj": {}
+    "C:\\Users\\theha\\Desktop\\Programming\\.NET\\example-c#-repo\\weather-stats\\WeatherStatsUnitTests\\WeatherStatsUnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Joel Milligan\\Desktop\\Programming\\dotnet\\example-csharp-projects\\weather-stats\\WeatherStatsUnitTests\\WeatherStatsUnitTests.csproj": {
+    "C:\\Users\\theha\\Desktop\\Programming\\.NET\\example-c#-repo\\weather-stats\\WeatherStatsUnitTests\\WeatherStatsUnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Joel Milligan\\Desktop\\Programming\\dotnet\\example-csharp-projects\\weather-stats\\WeatherStatsUnitTests\\WeatherStatsUnitTests.csproj",
+        "projectUniqueName": "C:\\Users\\theha\\Desktop\\Programming\\.NET\\example-c#-repo\\weather-stats\\WeatherStatsUnitTests\\WeatherStatsUnitTests.csproj",
         "projectName": "WeatherStatsUnitTests",
-        "projectPath": "C:\\Users\\Joel Milligan\\Desktop\\Programming\\dotnet\\example-csharp-projects\\weather-stats\\WeatherStatsUnitTests\\WeatherStatsUnitTests.csproj",
-        "packagesPath": "C:\\Users\\Joel Milligan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Joel Milligan\\Desktop\\Programming\\dotnet\\example-csharp-projects\\weather-stats\\WeatherStatsUnitTests\\obj\\",
+        "projectPath": "C:\\Users\\theha\\Desktop\\Programming\\.NET\\example-c#-repo\\weather-stats\\WeatherStatsUnitTests\\WeatherStatsUnitTests.csproj",
+        "packagesPath": "C:\\Users\\theha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\theha\\Desktop\\Programming\\.NET\\example-c#-repo\\weather-stats\\WeatherStatsUnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Joel Milligan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\theha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,6 +41,10 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.5.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             },
             "coverlet.collector": {
               "target": "Package",

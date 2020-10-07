@@ -1,0 +1,4 @@
+C:\Users\theha\Desktop\Programming\.NET\example-c#-repo\weather-stats\WeatherStats\bin\Debug\netcoreapp3.1\WeatherStats.exe
+C:\Users\theha\Desktop\Programming\.NET\example-c#-repo\weather-stats\WeatherStats\obj\Debug\netcoreapp3.1\WeatherStats.csprojAssemblyReference.cache
+C:\Users\theha\Desktop\Programming\.NET\example-c#-repo\weather-stats\WeatherStats\obj\Debug\netcoreapp3.1\WeatherStats.AssemblyInfoInputs.cache
+C:\Users\theha\Desktop\Programming\.NET\example-c#-repo\weather-stats\WeatherStats\obj\Debug\netcoreapp3.1\WeatherStats.AssemblyInfo.cs
