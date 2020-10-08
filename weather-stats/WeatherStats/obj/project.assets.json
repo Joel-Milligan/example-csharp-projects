@@ -71,19 +71,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Joel Milligan\\.nuget\\packages\\": {}
+    "C:\\Users\\theha\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Joel Milligan\\Desktop\\Programming\\dotnet\\example-csharp-projects\\weather-stats\\WeatherStats\\WeatherStats.csproj",
+      "projectUniqueName": "C:\\Users\\theha\\Desktop\\Programming\\.NET\\example-c#-repo\\weather-stats\\WeatherStats\\WeatherStats.csproj",
       "projectName": "WeatherStats",
-      "projectPath": "C:\\Users\\Joel Milligan\\Desktop\\Programming\\dotnet\\example-csharp-projects\\weather-stats\\WeatherStats\\WeatherStats.csproj",
-      "packagesPath": "C:\\Users\\Joel Milligan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Joel Milligan\\Desktop\\Programming\\dotnet\\example-csharp-projects\\weather-stats\\WeatherStats\\obj\\",
+      "projectPath": "C:\\Users\\theha\\Desktop\\Programming\\.NET\\example-c#-repo\\weather-stats\\WeatherStats\\WeatherStats.csproj",
+      "packagesPath": "C:\\Users\\theha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\theha\\Desktop\\Programming\\.NET\\example-c#-repo\\weather-stats\\WeatherStats\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Joel Milligan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\theha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -96,8 +96,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Joel Milligan\\Desktop\\Programming\\dotnet\\example-csharp-projects\\weather-stats\\WeatherStatsClassLibrary\\WeatherStatsClassLibrary.csproj": {
-              "projectPath": "C:\\Users\\Joel Milligan\\Desktop\\Programming\\dotnet\\example-csharp-projects\\weather-stats\\WeatherStatsClassLibrary\\WeatherStatsClassLibrary.csproj"
+            "C:\\Users\\theha\\Desktop\\Programming\\.NET\\example-c#-repo\\weather-stats\\WeatherStatsClassLibrary\\WeatherStatsClassLibrary.csproj": {
+              "projectPath": "C:\\Users\\theha\\Desktop\\Programming\\.NET\\example-c#-repo\\weather-stats\\WeatherStatsClassLibrary\\WeatherStatsClassLibrary.csproj"
             }
           }
         }

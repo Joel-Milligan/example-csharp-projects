@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "h6jl0y+l5lF7n1ldxho/W+fwRagvEjLQ9aXHdScsNOUGPxc8EmA/8rH16sOaQ6W9NTh+MvZr+f2mMfSoWq+y0w==",
+  "dgSpecHash": "wnH8GMJ1PD9tKaATs2vEZv5HQitaKVyzF5uYW5qOo4Ph6TKLxU86V4JisMoRafm9GsXW8zwBljBAEEbNgWm13w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Joel Milligan\\Desktop\\Programming\\dotnet\\example-csharp-projects\\weather-stats\\WeatherStatsClassLibrary\\WeatherStatsClassLibrary.csproj",
+  "projectFilePath": "C:\\Users\\theha\\Desktop\\Programming\\.NET\\example-c#-repo\\weather-stats\\WeatherStatsClassLibrary\\WeatherStatsClassLibrary.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Joel Milligan\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\theha\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }

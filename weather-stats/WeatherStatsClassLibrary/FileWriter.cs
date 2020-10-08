@@ -21,6 +21,11 @@ namespace WeatherStatsClassLibrary
 
         public void GenerateOutput(WeatherCollection weather)
         {
+            // TODO: Look into string building
+            // Summarise at the top of the file
+            
+            
+            // For each time point list: Air temperature
             foreach (var dataPoint in weather.observations.data)
             {
                 output.Add(dataPoint.ToString());
