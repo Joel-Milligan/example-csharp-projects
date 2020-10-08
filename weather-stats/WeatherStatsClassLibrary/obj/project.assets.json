@@ -10,19 +10,6 @@
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
-      },
-      "WeatherStatsClassLibrary/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.3"
-        },
-        "compile": {
-          "bin/placeholder/WeatherStatsClassLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/WeatherStatsClassLibrary.dll": {}
-        }
       }
     }
   },
@@ -57,17 +44,11 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
-    },
-    "WeatherStatsClassLibrary/1.0.0": {
-      "type": "project",
-      "path": "../WeatherStatsClassLibrary/WeatherStatsClassLibrary.csproj",
-      "msbuildProject": "../WeatherStatsClassLibrary/WeatherStatsClassLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Newtonsoft.Json >= 12.0.3",
-      "WeatherStatsClassLibrary >= 1.0.0"
+      "Newtonsoft.Json >= 12.0.3"
     ]
   },
   "packageFolders": {
@@ -76,11 +57,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\theha\\Desktop\\Programming\\.NET\\example-c#-repo\\weather-stats\\WeatherStats\\WeatherStats.csproj",
-      "projectName": "WeatherStats",
-      "projectPath": "C:\\Users\\theha\\Desktop\\Programming\\.NET\\example-c#-repo\\weather-stats\\WeatherStats\\WeatherStats.csproj",
+      "projectUniqueName": "C:\\Users\\theha\\Desktop\\Programming\\.NET\\example-c#-repo\\weather-stats\\WeatherStatsClassLibrary\\WeatherStatsClassLibrary.csproj",
+      "projectName": "WeatherStatsClassLibrary",
+      "projectPath": "C:\\Users\\theha\\Desktop\\Programming\\.NET\\example-c#-repo\\weather-stats\\WeatherStatsClassLibrary\\WeatherStatsClassLibrary.csproj",
       "packagesPath": "C:\\Users\\theha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\theha\\Desktop\\Programming\\.NET\\example-c#-repo\\weather-stats\\WeatherStats\\obj\\",
+      "outputPath": "C:\\Users\\theha\\Desktop\\Programming\\.NET\\example-c#-repo\\weather-stats\\WeatherStatsClassLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\theha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -95,11 +76,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {
-            "C:\\Users\\theha\\Desktop\\Programming\\.NET\\example-c#-repo\\weather-stats\\WeatherStatsClassLibrary\\WeatherStatsClassLibrary.csproj": {
-              "projectPath": "C:\\Users\\theha\\Desktop\\Programming\\.NET\\example-c#-repo\\weather-stats\\WeatherStatsClassLibrary\\WeatherStatsClassLibrary.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

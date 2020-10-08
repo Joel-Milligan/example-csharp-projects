@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wnH8GMJ1PD9tKaATs2vEZv5HQitaKVyzF5uYW5qOo4Ph6TKLxU86V4JisMoRafm9GsXW8zwBljBAEEbNgWm13w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\theha\\Desktop\\Programming\\.NET\\example-c#-repo\\weather-stats\\WeatherStatsClassLibrary\\WeatherStatsClassLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\theha\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
