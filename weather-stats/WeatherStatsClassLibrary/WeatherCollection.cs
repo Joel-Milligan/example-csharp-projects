@@ -2,15 +2,19 @@
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Text;
+using WeatherStatsClassLibrary;
 
 namespace WeatherStatsClassLibrary
 {
     public class WeatherCollection
     {
-        public List<dynamic> notice;
-        public List<dynamic> header;
-        //public List<Weather> data { get; set; }
+        public Observations observations { get; set; }
+    }
 
-        
+    public class Observations
+    {
+        public List<WeatherHeader> header { get; set; }
+
+        public List<WeatherDataPoint> data { get; set; }
     }
 }

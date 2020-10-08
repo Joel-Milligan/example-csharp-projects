@@ -18,8 +18,8 @@ namespace WeatherStatsClassLibrary
             this._httpClient = new HttpClient();
             
             // TODO: Understand these lines of code
-            //_httpClient.DefaultRequestHeaders.Add("User-Agent", "C# Console Program");
-            //_httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            _httpClient.DefaultRequestHeaders.Add("User-Agent", "C# Console Program");
+            _httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
         }
 
         public async Task RetrieveJSON()
@@ -30,15 +30,16 @@ namespace WeatherStatsClassLibrary
             {
                 response.EnsureSuccessStatusCode();
             }
-            catch (Exception)
+            catch (Exception e)
             {
+                Console.WriteLine($"Exception Caught: {e}");
                 return;
             }
                 
 
             var jsonString = await response.Content.ReadAsStringAsync();
 
-            Console.WriteLine(jsonString);
+            //Console.WriteLine(jsonString);
 
             this.RawJSONResponse = jsonString;
         }

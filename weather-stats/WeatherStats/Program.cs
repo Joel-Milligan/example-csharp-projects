@@ -9,17 +9,17 @@ namespace WeatherStats
 {
     class Program
     {
-        static void Main(string[] args) // TOOD: Take args for where to place the output file.
+        static async System.Threading.Tasks.Task Main(string[] args) // TOOD: Take args for where to place the output file.
         {
             Client client = new Client();
-            client.RetrieveJSON();
+            await client.RetrieveJSON();
 
-            Console.WriteLine(client.RawJSONResponse);
+            WeatherCollection weatherCollection = JsonConvert.DeserializeObject<WeatherCollection>(client.RawJSONResponse);
 
-            var weatherCollection = JsonConvert.DeserializeObject<dynamic>(client.RawJSONResponse);
+            string filePath = @"C:\Users\Public\Test.txt";
 
-            Console.WriteLine(weatherCollection.data[0].air_temp);
-            Console.ReadLine();
+            FileWriter fileWriter = new FileWriter(weatherCollection);
+            fileWriter.WriteOutputToFile(filePath);
         }
     }
 }

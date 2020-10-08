@@ -43,5 +43,6 @@ An app that retrieves the last 72 hours of weather information for Perth from "w
 - Make HTTP Get Requests from 3rd Party Websites
 - Parse JSON Data
 - File Creation and Writing
+- Overriding default methods (ToString)
 
 #### Instructions

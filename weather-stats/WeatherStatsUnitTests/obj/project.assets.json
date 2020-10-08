@@ -879,19 +879,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\theha\\.nuget\\packages\\": {}
+    "C:\\Users\\Joel Milligan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\theha\\Desktop\\Programming\\.NET\\example-c#-repo\\weather-stats\\WeatherStatsUnitTests\\WeatherStatsUnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\Joel Milligan\\Desktop\\Programming\\dotnet\\example-csharp-projects\\weather-stats\\WeatherStatsUnitTests\\WeatherStatsUnitTests.csproj",
       "projectName": "WeatherStatsUnitTests",
-      "projectPath": "C:\\Users\\theha\\Desktop\\Programming\\.NET\\example-c#-repo\\weather-stats\\WeatherStatsUnitTests\\WeatherStatsUnitTests.csproj",
-      "packagesPath": "C:\\Users\\theha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\theha\\Desktop\\Programming\\.NET\\example-c#-repo\\weather-stats\\WeatherStatsUnitTests\\obj\\",
+      "projectPath": "C:\\Users\\Joel Milligan\\Desktop\\Programming\\dotnet\\example-csharp-projects\\weather-stats\\WeatherStatsUnitTests\\WeatherStatsUnitTests.csproj",
+      "packagesPath": "C:\\Users\\Joel Milligan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Joel Milligan\\Desktop\\Programming\\dotnet\\example-csharp-projects\\weather-stats\\WeatherStatsUnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\theha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Joel Milligan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
