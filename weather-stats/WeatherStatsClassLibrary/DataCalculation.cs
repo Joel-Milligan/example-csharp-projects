@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Text;
 
 namespace WeatherStatsClassLibrary
@@ -18,9 +19,10 @@ namespace WeatherStatsClassLibrary
             return Math.Round(sumTemp / weatherCollection.observations.data.Count, 1);
         }
 
-        public static double ExtremeTemperature(WeatherCollection weatherCollection, bool max)
+        public static string ExtremeTemperature(WeatherCollection weatherCollection, bool max)
         {
             double extremeTemp;
+            DateTime dateTime = new DateTime();
 
             if (max)
             {
@@ -38,10 +40,11 @@ namespace WeatherStatsClassLibrary
                     (dataPoint.air_temp < extremeTemp && !max))
                 {
                     extremeTemp = dataPoint.air_temp;
+                    dateTime = DateTime.ParseExact(dataPoint.local_date_time_full, "yyyyMMddHHmmss", CultureInfo.InvariantCulture);
                 }
             }
 
-            return extremeTemp;
+            return extremeTemp.ToString() + " degrees celcius\tat " + dateTime.ToString();
         }
 
         public static double AverageHumidity(WeatherCollection weatherCollection)

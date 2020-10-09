@@ -31,8 +31,8 @@ namespace WeatherStatsClassLibrary
             output.Add("");
             
             // Max and min temperatures
-            output.Add("Maximum Temperature: " + DataCalculation.ExtremeTemperature(weather, true).ToString() + " degrees celcius");
-            output.Add("Minimum Temperature: " + DataCalculation.ExtremeTemperature(weather, false).ToString() + " degrees celcius");
+            output.Add("Maximum Temperature: " + DataCalculation.ExtremeTemperature(weather, true).ToString());
+            output.Add("Minimum Temperature: " + DataCalculation.ExtremeTemperature(weather, false).ToString());
             output.Add("");
 
             // For each time point list: Air temperature and Rainfall
