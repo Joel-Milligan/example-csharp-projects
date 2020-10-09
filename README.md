@@ -44,5 +44,8 @@ An app that retrieves the last 72 hours of weather information for Perth from "w
 - Parse JSON Data
 - File Creation and Writing
 - Overriding default methods (ToString)
+- Parse command line arguments
 
 #### Instructions
+
+By either the command line or by user input if no command line argument is given, enter a file path for where the output should be written of the form "path\to\file\file.txt"
