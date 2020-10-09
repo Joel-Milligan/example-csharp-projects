@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "z9NSkD7d28Mnish0HGgqGcuAuwpz3unadSkK6EnG8u0/kMSIGEpoIf3gVWYXGkZNxKiBYDTNSyehc7058ij/lQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Joel Milligan\\Desktop\\Programming\\dotnet\\example-csharp-projects\\weather-stats\\WeatherStats\\WeatherStats.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Joel Milligan\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

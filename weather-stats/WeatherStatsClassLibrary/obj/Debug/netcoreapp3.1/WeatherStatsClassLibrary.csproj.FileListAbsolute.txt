@@ -1,0 +1,18 @@
+C:\Users\theha\Desktop\Programming\.NET\example-c#-repo\weather-stats\WeatherStatsClassLibrary\bin\Debug\netcoreapp3.1\WeatherStatsClassLibrary.deps.json
+C:\Users\theha\Desktop\Programming\.NET\example-c#-repo\weather-stats\WeatherStatsClassLibrary\bin\Debug\netcoreapp3.1\WeatherStatsClassLibrary.dll
+C:\Users\theha\Desktop\Programming\.NET\example-c#-repo\weather-stats\WeatherStatsClassLibrary\bin\Debug\netcoreapp3.1\WeatherStatsClassLibrary.pdb
+C:\Users\theha\Desktop\Programming\.NET\example-c#-repo\weather-stats\WeatherStatsClassLibrary\obj\Debug\netcoreapp3.1\WeatherStatsClassLibrary.csprojAssemblyReference.cache
+C:\Users\theha\Desktop\Programming\.NET\example-c#-repo\weather-stats\WeatherStatsClassLibrary\obj\Debug\netcoreapp3.1\WeatherStatsClassLibrary.AssemblyInfoInputs.cache
+C:\Users\theha\Desktop\Programming\.NET\example-c#-repo\weather-stats\WeatherStatsClassLibrary\obj\Debug\netcoreapp3.1\WeatherStatsClassLibrary.AssemblyInfo.cs
+C:\Users\theha\Desktop\Programming\.NET\example-c#-repo\weather-stats\WeatherStatsClassLibrary\obj\Debug\netcoreapp3.1\WeatherStatsClassLibrary.dll
+C:\Users\theha\Desktop\Programming\.NET\example-c#-repo\weather-stats\WeatherStatsClassLibrary\obj\Debug\netcoreapp3.1\WeatherStatsClassLibrary.pdb
+C:\Users\theha\Desktop\Programming\.NET\example-c#-repo\weather-stats\WeatherStatsClassLibrary\obj\Debug\netcoreapp3.1\WeatherStatsClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\weather-stats\WeatherStatsClassLibrary\bin\Debug\netcoreapp3.1\WeatherStatsClassLibrary.deps.json
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\weather-stats\WeatherStatsClassLibrary\bin\Debug\netcoreapp3.1\WeatherStatsClassLibrary.dll
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\weather-stats\WeatherStatsClassLibrary\bin\Debug\netcoreapp3.1\WeatherStatsClassLibrary.pdb
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\weather-stats\WeatherStatsClassLibrary\obj\Debug\netcoreapp3.1\WeatherStatsClassLibrary.csprojAssemblyReference.cache
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\weather-stats\WeatherStatsClassLibrary\obj\Debug\netcoreapp3.1\WeatherStatsClassLibrary.AssemblyInfoInputs.cache
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\weather-stats\WeatherStatsClassLibrary\obj\Debug\netcoreapp3.1\WeatherStatsClassLibrary.AssemblyInfo.cs
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\weather-stats\WeatherStatsClassLibrary\obj\Debug\netcoreapp3.1\WeatherStatsClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\weather-stats\WeatherStatsClassLibrary\obj\Debug\netcoreapp3.1\WeatherStatsClassLibrary.dll
+C:\Users\Joel Milligan\Desktop\Programming\dotnet\example-csharp-projects\weather-stats\WeatherStatsClassLibrary\obj\Debug\netcoreapp3.1\WeatherStatsClassLibrary.pdb

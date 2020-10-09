@@ -1,5 +1,7 @@
 # A Repo of Example C# Solutions
 
+Source code is within the folders weather-stats and tic-tac-toe, while the executable binaries are in the bin folder at the repo root (only compiled for Win x64).
+
 ## Demonstrates
 
 - Ability to use Git, GitHub, and Markdown
@@ -32,3 +34,20 @@ A basic console app for the game "Tic Tac Toe"
 Input moves of the form "row col", where row and col are numbers between 0 and 2, where top left = 0 0 and bottom right = 2 2.
 
 Moves alternate between 'x' and 'o', and 'x' begins.
+
+### WeatherStats
+
+An app that retrieves the last 72 hours of weather information for Perth from "www.bom.gov.au", and outputs statistics about the last 72 hours to a text file.
+
+#### Demonstrates
+
+- Using NuGet to install and use 3rd party libraries (Newtonsoft.Json)
+- Make HTTP Get Requests from 3rd Party Websites
+- Parse JSON Data
+- File Creation and Writing
+- Overriding default methods (ToString)
+- Parse command line arguments
+
+#### Instructions
+
+By either the command line or by user input if no command line argument is given, enter a file path for where the output should be written of the form "path\to\file\file.txt"
