@@ -1,5 +1,7 @@
 # A Repo of Example C# Solutions
 
+Source code is within the folders weather-stats and tic-tac-toe, while the executable binaries are in the bin folder at the repo root (only compiled for Win x64).
+
 ## Demonstrates
 
 - Ability to use Git, GitHub, and Markdown
