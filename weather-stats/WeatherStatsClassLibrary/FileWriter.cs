@@ -22,10 +22,17 @@ namespace WeatherStatsClassLibrary
         public void GenerateOutput(WeatherCollection weather)
         {
             // TODO: Look into string building
-            // Summarise at the top of the file
-            
-            
-            // For each time point list: Air temperature
+
+            // 72 Hour Averages at the top of the file
+            output.Add("AVERAGES FROM THE LAST 72 HOURS");
+            output.Add("Air Temperature: " + DataCalculation.AverageAirTemperature(weather).ToString() + " degrees celcius");
+            output.Add("Wind Speed: " + DataCalculation.AverageWindSpeed(weather).ToString() + "km/h");
+            output.Add("");
+            output.Add("Maximum Temperature: " + DataCalculation.ExtremeTemperature(weather, true).ToString() + " degrees celcius");
+            output.Add("Minimum Temperature: " + DataCalculation.ExtremeTemperature(weather, false).ToString() + " degrees celcius");
+            output.Add("");
+
+            // For each time point list: Air temperature and Rainfall
             foreach (var dataPoint in weather.observations.data)
             {
                 output.Add(dataPoint.ToString());

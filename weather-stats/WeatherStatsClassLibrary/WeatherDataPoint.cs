@@ -45,7 +45,10 @@ namespace WeatherStatsClassLibrary
 
         public override string ToString()
         {
-            return $"Time: { DateTime.ParseExact(this.local_date_time_full, "yyyyMMddHHmmss", CultureInfo.InvariantCulture)}\tAir Temperature: { this.air_temp}";
+            return $"Time: { DateTime.ParseExact(this.local_date_time_full, "yyyyMMddHHmmss", CultureInfo.InvariantCulture)}" +
+                $"\tAir Temperature: { this.air_temp}" +
+                $"\tWind Speed (km/h): { this.wind_spd_kmh }" +
+                $"\tWind Direction: { this.wind_dir }";
         }
     }
 }
