@@ -21,8 +21,6 @@ namespace WeatherStatsClassLibrary
 
         public void GenerateOutput(WeatherCollection weather)
         {
-            // TODO: Look into string building
-
             // 72 hour averages at the top of the file
             output.Add("AVERAGES FROM THE LAST 72 HOURS");
             output.Add("Air Temperature: " + DataCalculation.AverageAirTemperature(weather).ToString() + " degrees celcius");

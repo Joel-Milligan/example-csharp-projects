@@ -8,7 +8,6 @@ namespace WeatherStatsClassLibrary
 {
     public class Client
     {
-        // TODO: Figure out why readonly
         private readonly HttpClient _httpClient;
         private readonly string url = "http://www.bom.gov.au/fwo/IDW60901/IDW60901.94608.json";
         public string RawJSONResponse { get; set; }
@@ -17,7 +16,6 @@ namespace WeatherStatsClassLibrary
         {
             this._httpClient = new HttpClient();
             
-            // TODO: Understand these lines of code
             _httpClient.DefaultRequestHeaders.Add("User-Agent", "C# Console Program");
             _httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
         }
@@ -38,8 +36,6 @@ namespace WeatherStatsClassLibrary
                 
 
             var jsonString = await response.Content.ReadAsStringAsync();
-
-            //Console.WriteLine(jsonString);
 
             this.RawJSONResponse = jsonString;
         }
