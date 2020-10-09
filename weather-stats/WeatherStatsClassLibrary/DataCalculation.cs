@@ -44,6 +44,18 @@ namespace WeatherStatsClassLibrary
             return extremeTemp;
         }
 
+        public static double AverageHumidity(WeatherCollection weatherCollection)
+        {
+            double sumHum = 0;
+
+            foreach (var dataPoint in weatherCollection.observations.data)
+            {
+                sumHum += dataPoint.rel_hum;
+            }
+
+            return Math.Round(sumHum / weatherCollection.observations.data.Count, 1);
+        }
+
         public static double AverageWindSpeed(WeatherCollection weatherCollection)
         {
             double sumSpeed = 0;
@@ -55,7 +67,5 @@ namespace WeatherStatsClassLibrary
 
             return Math.Round(sumSpeed / weatherCollection.observations.data.Count, 1);
         }
-
-
     }
 }

@@ -23,11 +23,14 @@ namespace WeatherStatsClassLibrary
         {
             // TODO: Look into string building
 
-            // 72 Hour Averages at the top of the file
+            // 72 hour averages at the top of the file
             output.Add("AVERAGES FROM THE LAST 72 HOURS");
             output.Add("Air Temperature: " + DataCalculation.AverageAirTemperature(weather).ToString() + " degrees celcius");
             output.Add("Wind Speed: " + DataCalculation.AverageWindSpeed(weather).ToString() + "km/h");
+            output.Add("Relative Humidity: " + DataCalculation.AverageHumidity(weather).ToString() + "%");
             output.Add("");
+            
+            // Max and min temperatures
             output.Add("Maximum Temperature: " + DataCalculation.ExtremeTemperature(weather, true).ToString() + " degrees celcius");
             output.Add("Minimum Temperature: " + DataCalculation.ExtremeTemperature(weather, false).ToString() + " degrees celcius");
             output.Add("");
