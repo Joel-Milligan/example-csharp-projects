@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "3RkaHReg1UvRU/n+9046cJObUiHdt5g9lmbJcYjd/DAx0dRu/e7+/1uPBCzRPMALJNUZjt56kKCsU2gOZO1mtQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Joel Milligan\\Desktop\\Programming\\dotnet\\example-csharp-projects\\weather-stats\\WeatherStats\\WeatherStats.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Joel Milligan\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Joel Milligan\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\3.1.8\\microsoft.netcore.app.runtime.win-x64.3.1.8.nupkg.sha512",
+    "C:\\Users\\Joel Milligan\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\3.1.8\\microsoft.windowsdesktop.app.runtime.win-x64.3.1.8.nupkg.sha512",
+    "C:\\Users\\Joel Milligan\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\3.1.8\\microsoft.aspnetcore.app.runtime.win-x64.3.1.8.nupkg.sha512"
+  ],
+  "logs": []
+}
